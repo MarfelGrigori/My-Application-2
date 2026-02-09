@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Crypto Wallet Test</string>
+
+    <!-- Main / SDK -->
+    <string name="app_origin">myapp://</string>
+    <string name="redirect_url">myapp://auth</string>
+
+    <!-- Login -->
+    <string name="login_crypto_wallet">Crypto Wallet</string>
+    <string name="login_subtitle">Please sign in to continue</string>
+    <string name="login_email_label">Email address</string>
+    <string name="login_send_otp">Send Email OTP</string>
+    <string name="login_otp_hint">We\'ll send a 6-digit code to verify your email</string>
+    <string name="login_verify_email_title">Verify Email</string>
+    <string name="login_close">Close</string>
+    <string name="login_check_email">Check your email</string>
+    <string name="login_otp_sent_to">We sent a verification code to %s</string>
+    <string name="login_didnt_receive">Didn\'t receive a code?</string>
+    <string name="login_resend_in">Resend in %ds</string>
+    <string name="login_resend">Resend</string>
+    <string name="login_verify_code">Verify Code</string>
+
+    <!-- Login errors -->
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_rate_limit">Too many attempts. Please try again in 60 seconds.</string>
+    <string name="error_send_otp">Failed to send OTP. Check your internet connection.</string>
+    <string name="error_enter_6_digits">Please enter the full 6-digit code</string>
+    <string name="error_invalid_code">Invalid code. Please check and try again.</string>
+    <string name="error_code_expired">Code expired. Please request a new one.</string>
+    <string name="error_verification_failed">Verification failed. Please try again.</string>
+    <string name="error_resend_failed">Failed to resend code. Please try again later.</string>
+
+    <!-- Wallet -->
+    <string name="wallet_title">Wallet</string>
+    <string name="wallet_logout">Logout</string>
+    <string name="wallet_retry">Retry</string>
+    <string name="wallet_network">Network</string>
+    <string name="wallet_balance">Balance</string>
+    <string name="wallet_balance_format">%s ETH</string>
+    <string name="wallet_address">Address</string>
+    <string name="wallet_copy_address">Copy Address</string>
+    <string name="wallet_send_transaction">Send Transaction</string>
+    <string name="wallet_address_clipboard_label">Wallet Address</string>
+    <string name="network_sepolia">Sepolia</string>
+    <string name="network_sepolia_with_chain">Sepolia %d</string>
+
+    <!-- Wallet errors -->
+    <string name="error_wallet_creation_timeout">Wallet creation is taking longer than expected. Pull to refresh or try logging out and back in.</string>
+    <string name="error_invalid_wallet_address">Invalid wallet address</string>
+    <string name="error_failed_load_wallet">Failed to load wallet</string>
+    <string name="error_no_evm_wallet">No EVM wallet yet. Embedded wallet creation may be in progress — pull to refresh in a few seconds.</string>
+
+    <!-- Send Transaction -->
+    <string name="send_title">Send Transaction</string>
+    <string name="send_back">Back</string>
+    <string name="send_recipient_label">Recipient address</string>
+    <string name="send_recipient_placeholder">0x...</string>
+    <string name="send_amount_label">Amount (ETH)</string>
+    <string name="send_amount_placeholder">0.0</string>
+    <string name="send_success">Transaction Success!</string>
+    <string name="send_transaction_hash">Transaction Hash:</string>
+    <string name="send_view_etherscan">View on Etherscan</string>
+    <string name="send_button">Send Transaction</string>
+    <string name="send_success_content_description">Success</string>
+    <string name="tx_hash_unknown">Unknown</string>
+    <string name="etherscan_tx_url">https://sepolia.etherscan.io/tx/%s</string>
+
+    <!-- Send errors -->
+    <string name="error_enter_recipient">Please enter recipient address</string>
+    <string name="error_invalid_ethereum_address">Invalid Ethereum address</string>
+    <string name="error_enter_amount">Please enter amount</string>
+    <string name="error_valid_amount">Please enter a valid amount</string>
+    <string name="error_no_evm_wallet_send">No EVM wallet found</string>
+    <string name="error_network_mainnet">Network error: The wallet may be on Ethereum mainnet instead of Sepolia. Please ensure your Dynamic dashboard has Sepolia network enabled, or try again in a few moments.</string>
+    <string name="error_transaction_network">Transaction failed: Unable to connect to the network. Please check your internet connection and ensure Sepolia network is configured.</string>
+    <string name="error_insufficient_balance">Insufficient balance: You don\'t have enough ETH to send this transaction.</string>
+    <string name="error_invalid_recipient">Invalid recipient address. Please check the address and try again.</string>
+    <string name="error_transaction_failed_generic">Transaction failed: Network error. Please ensure you\'re on Sepolia testnet and try again.</string>
+</resources>
