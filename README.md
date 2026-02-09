@@ -128,3 +128,7 @@ Check balance: https://sepolia.etherscan.io/address/YOUR_ADDRESS
 ## License
 
 Educational / test assignment use only.
+
+
+[![Download APK](https://github.com/MarfelGrigori/My-Application-2/releases/latest/download/app-debug.apk)
+
